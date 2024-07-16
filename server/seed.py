@@ -50,7 +50,8 @@ with app.app_context():
         recipe = Recipe(
             title=fake.sentence(),
             instructions=instructions,
-            minutes_to_complete=randint(15,90),
+            minutes
+            _to_complete=randint(15,90),
         )
 
         recipe.user = rc(users)
